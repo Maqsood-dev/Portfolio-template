@@ -225,18 +225,45 @@ p{
 .certificates a{
     color: red;
 }
+
 @media only screen and (max-width:1250px){
     .maincontainer{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-        margin: 20px;
+        margin: 5px;
         border: 5px solid green;
         background-color: black;
-        border-radius: 30px;
-       box-shadow: 20px 20px 10px rgba(19, 167, 9, 0.862);
-    }   
+        border-radius: 10px;
+       box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+    }
+    
+    
+    .manubar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        flex-wrap: wrap;
+    }
+    
+    .manubar a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+    
+    .manubar li{
+        float: left;
+        padding: 0px 100px 0px 100px;
+    }
 }
 
 @media only screen and (max-width:950px){
@@ -246,5 +273,173 @@ p{
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .box{
+        border-radius: 30px;
+        width: 200px;
+        height: 300%;
+        transition: .3s;
+    }
+}
+
+@media only screen and (max-width:470px){
+    
+    .manubar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 20px 20px 10px rgba(19, 167, 9, 0.862);
+    }
+    
+    .manubar ul{
+        list-style: none;
+        overflow: hidden;
+    }
+    
+    .manubar a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        display: block;
+    }
+    
+    .manubar a:hover{
+        background-color: green;
+    }
+    
+    .manubar li{
+        float: left;
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .img{
+        border-radius: 200px;
+        width: 200px;
+        height: 300%;
+        margin: 5px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px rgba(25, 240, 1, 0.731);
+        filter: grayscale(.4);
+        transition: .6s;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    #pp{
+        padding: 5px;
+        margin: 5px;
+        font-size: medium;
+    }
+
+
+
+    .secondcontainer{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        
+    }
+
+    #heading{
+        text-shadow: 5px 5px 2px rgb(2, 146, 2);
+        text-align: center;
+        font-size: large;
+    }
+
+    .innerbox{
+        color: white;
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+        justify-content:space-between;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 50px;
+        margin: 5px;
+        padding: 20px;
+        background-color:black;
+        box-shadow: 5px 5px 20px rgb(2, 146, 2);
+        transition: .3s;
+    }
+
+
+    .thirdcontainer{
+        text-align: center;
+        margin: 5px;
+        padding: 20px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+    }
+    
+    .third-heading{
+        text-shadow: 10px 10px 5px rgb(2, 146, 2);
+        text-align: center;
+        font-size: large;
+    }
+
+    .certificat-logo{
+        width: 100px;
+        height: 100px;
+        
+        padding: 50px 0px 0px 0px;
+    }
+
+    .text{
+        size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+
+}
+
+@media only screen and (max-width:742px){
+    .img{
+        border-radius: 200px;
+        width: 200px;
+        height: 300%;
+        margin: 5px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px rgba(25, 240, 1, 0.731);
+        filter: grayscale(.4);
+        transition: .6s;
+    }
+
+    #pp{
+        padding: 5px;
+        margin: 5px;
+        font-size: medium;
+    }
+
+    .secondcontainer{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        
+    }
+
+    .thirdcontainer{
+        text-align: center;
+        margin: 5px;
+        padding: 20px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
     }
 }
