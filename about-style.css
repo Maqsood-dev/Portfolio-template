@@ -78,3 +78,131 @@ h1{
     color: green;
     font-size: 50px;
 }
+
+@media only screen and (max-width:1250px){
+    .manubar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        flex-wrap: wrap;
+    }
+
+    .container{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        flex-direction: column;
+        padding: 2px;
+    }
+    
+    h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        margin: 5px 0px 20px 0px;
+    }
+    
+    #inner-about-container{
+        color: white;
+        text-align: center;
+    }
+    #about-content{
+        font-size: 20px;
+
+    }
+    .content-main-text{
+        color: green;
+        font-size: 20px;
+    }
+    
+    .manubar a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+    
+    .manubar li{
+        float: left;
+        padding: 0px 100px 0px 100px;
+    }
+}
+@media only screen and (max-width:950px){}
+@media only screen and (max-width:470px){
+    .manubar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 20px 20px 10px rgba(19, 167, 9, 0.862);
+    }
+    
+    .manubar ul{
+        list-style: none;
+        overflow: hidden;
+    }
+    
+    .manubar a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        display: block;
+    }
+    
+    .manubar a:hover{
+        background-color: green;
+    }
+    
+    .manubar li{
+        float:inline-start;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .container{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin: 5px;
+        border: 5px solid green;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(19, 167, 9, 0.862);
+        flex-direction: column;
+        padding: 2px;
+    }
+    
+    h1{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin: 2px 0px 2px 0px;
+    }
+    
+    #inner-about-container{
+        color: white;
+        text-align: center;
+    }
+    #about-content{
+        font-size: 13px;
+
+    }
+    .content-main-text{
+        color: green;
+        font-size: 15px;
+    }
+}
