@@ -344,7 +344,7 @@ p{
     .secondcontainer{
         text-align: center;
         margin: 5px;
-        padding: 5px;
+        padding: 1px;
         border: 5px solid green;
         background-color: black;
         border-radius: 10px;
@@ -366,8 +366,8 @@ p{
         justify-content:space-between;
         border: 5px solid rgb(0, 0, 0);
         border-radius: 50px;
-        margin: 5px;
-        padding: 20px;
+        margin: 1px;
+        padding: 10px;
         background-color:black;
         box-shadow: 5px 5px 20px rgb(2, 146, 2);
         transition: .3s;
